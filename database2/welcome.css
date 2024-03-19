@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #baf2ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    text-align: center;
+    background-color: rgb(225, 225, 225);
+    border-radius: 40px;
+    width: 1100px;
+    height: 80vh;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f2c50;
+}
+  
+.navli {
+    float: right;
+}
+  
+.navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    transition: all 0.25s;
+}
+  
+.navli a:hover {
+    background-color: #120d3f;
+    transform: scale(1.1);
+    transition: all 0.65s;
+}
+
+.name{
+    margin-right: 530px;
+}
+
+.welcome-input{
+    font-size: 30px;
+    margin-top: 150px;
+}
